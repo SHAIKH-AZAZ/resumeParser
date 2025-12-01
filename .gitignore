@@ -1,0 +1,81 @@
+venv
+.env
+
+.idea
+.vscode
+.DS_Store
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+build
+develop-eggs
+dist
+downloads
+eggs
+.eggs
+lib
+lib64
+parts
+sdist
+var
+wheels
+*.egg-info
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyCharm
+.idea
+*.iml
+*.ipr
+*.iws
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask
+instance
+.webassets-cache
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default
+ipython_config.py
+
+# Environments
+.env
+.venv
+env
+venv
+ENV
+env.bak
+venv.bak
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache
+.dmypy.json
+dmypy.json
+
+# Pyright
+.pyright

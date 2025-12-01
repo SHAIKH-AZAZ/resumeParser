@@ -1,0 +1,8 @@
+openai>=1.40
+pymupdf
+pdfminer.six
+pytesseract
+Pillow
+pandas
+python-dotenv
+tqdm

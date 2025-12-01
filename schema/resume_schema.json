@@ -1,0 +1,44 @@
+{
+  "type": "object",
+  "properties": {
+    "name_of_candidate": { "type": "string" },
+    "birth_date": { "type": "string" },
+    "marital_status": { "type": "string" },
+    "permanent_address": { "type": "string" },
+    "present_address": { "type": "string" },
+    "contact_number": { "type": "string" },
+    "email_id": { "type": "string" },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": { "type": "string" },
+          "institute": { "type": "string" },
+          "year": { "type": "string" }
+        }
+      }
+    },
+    "total_years_of_experience": { "type": "string" },
+    "experience_details": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "company_name": { "type": "string" },
+          "role": { "type": "string" },
+          "duration": { "type": "string" },
+          "responsibilities": { "type": "string" }
+        }
+      }
+    },
+    "current_monthly_salary": { "type": "string" },
+    "district": { "type": "string" },
+    "state": { "type": "string" },
+    "gender": { "type": "string" },
+    "pan_card": { "type": "string" },
+    "aadhar_card": { "type": "string" },
+    "preferred_job_location": { "type": "string" },
+    "file_name": { "type": "string" }
+  }
+}
