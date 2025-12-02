@@ -3,34 +3,23 @@
     "birth_date": "",
     "marital_status": "",
     "permanent_address": "Navrangpura, Ahmedabad-380009",
-    "present_address": "Navrangpura, Ahmedabad-380009",
+    "present_address": "",
     "contact_number": "9824884860",
     "email_id": "jaygc60@gmail.com",
-    "education": [
-        {
-            "degree": "Bachelor of Business Administration - Gujarat University-KSSBM (2025)",
-            "institute": "Gujarat University-KSSBM",
-            "year": "2025"
-        },
-        {
-            "degree": "Higher Secondary School",
-            "institute": "Shree Swaminarayan Gurukul - Botad",
-            "year": "2022"
-        }
-    ],
-    "total_years_of_experience": "1 year 7 months",
+    "education": "Bachelor of Business Administration - Gujarat University-KSSBM (2025)",
+    "total_years_of_experience": "1 year 9 months",
     "experience_details": [
         {
             "company_name": "T.I.M.E. (Triumphant Institute of Management Education)",
             "role": "Campus Ambassador",
             "duration": "July 2024 - Nov 2024",
-            "responsibilities": "Enhanced brand visibility and audience engagement through strategic marketing and event coordination. Gained practical experience in digital marketing, campaign creation, and outreach initiatives."
+            "responsibilities": "Enhanced brand visibility and audience engagement through strategic marketing. Gained practical experience in digital marketing and campaign creation. Developed communication, leadership, and interpersonal skills."
         },
         {
             "company_name": "Freelance",
             "role": "Graphic Designer And Video Editor",
             "duration": "May 2023 - Aug 2024",
-            "responsibilities": "Monetized projects by leveraging skills in video editing and graphic design. Continuously refined creative abilities, expanding client base with high-quality services."
+            "responsibilities": "Successfully monetized video editing and graphic design projects. Continuously refined creative abilities for improved proficiency. Expanded freelancing to offer high-quality services to clients."
         },
         {
             "company_name": "citynect - Flat and Flatmates",
@@ -39,7 +28,6 @@
             "responsibilities": "Completed a two-month internship focused on lead generation and marketing analysis. Gained valuable strategic insights and practical experience in marketing operations."
         }
     ],
-    "current_monthly_salary": "",
     "district": "Ahmedabad",
     "state": "Gujarat",
     "gender": "",

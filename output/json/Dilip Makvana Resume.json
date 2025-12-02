@@ -6,28 +6,16 @@
     "present_address": "At-Makvanavas,Morvad, Ta-Vijapur, Di-Mehsana, Pin- 382870",
     "contact_number": "6351676731",
     "email_id": "dilipmakvana2705@gmail.com",
-    "education": [
-        {
-            "degree": "Master of Business Administration (HR)",
-            "institute": "Sankalchand Patel University",
-            "year": "2025"
-        },
-        {
-            "degree": "Bachelor of Commerce",
-            "institute": "Sankalchand Patel University",
-            "year": "2023"
-        }
-    ],
-    "total_years_of_experience": "0 years",
+    "education": "Master of Business Administration (HR) - Sankalchand Patel University (2025)",
+    "total_years_of_experience": "0",
     "experience_details": [
         {
             "company_name": "Carrier Bridge Skill Solutions",
             "role": "Intern",
-            "duration": "20th May, 2024 to 19th June, 2024",
-            "responsibilities": "Supported development and maintenance of employee records and databases, ensuring data accuracy and confidentiality. Contributed to the onboarding process by preparing new hire documentation and assisting with orientation sessions."
+            "duration": "May 2024 - June 2024",
+            "responsibilities": "Supported employee record development and maintenance, ensuring data accuracy and confidentiality.\nContributed to onboarding, preparing new hire documentation and assisting with orientation."
         }
     ],
-    "current_monthly_salary": "",
     "district": "Mehsana",
     "state": "Gujarat",
     "gender": "",

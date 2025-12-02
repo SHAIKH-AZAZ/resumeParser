@@ -3,7 +3,7 @@
     "birth_date": "",
     "marital_status": "",
     "permanent_address": "",
-    "present_address": "Ahmedabad",
+    "present_address": "",
     "contact_number": "9725676845",
     "email_id": "Krishna.sheladiya011@gmail.com",
     "education": [
@@ -11,9 +11,24 @@
             "degree": "MBA (HR)",
             "institute": "K.S. School of Business Management",
             "year": "2025"
+        },
+        {
+            "degree": "BBA (HR)",
+            "institute": "K.S. School of Business Management",
+            "year": "2023"
+        },
+        {
+            "degree": "HSC",
+            "institute": "Raghuvir Vidhya Vihar",
+            "year": "2020"
+        },
+        {
+            "degree": "SSC",
+            "institute": "Jivandhara School- Dhari",
+            "year": "2018"
         }
     ],
-    "total_years_of_experience": "0 years",
+    "total_years_of_experience": "0 years 2 months",
     "experience_details": [
         {
             "company_name": "Ikamate HR India Pvt. Ltd.",
@@ -22,7 +37,6 @@
             "responsibilities": ""
         }
     ],
-    "current_monthly_salary": "",
     "district": "Ahmedabad",
     "state": "Gujarat",
     "gender": "",

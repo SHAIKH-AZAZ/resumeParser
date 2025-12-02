@@ -2,39 +2,44 @@
     "name_of_candidate": "PRIYA BAHADURBHAI KHUMAN",
     "birth_date": "",
     "marital_status": "",
-    "permanent_address": "",
+    "permanent_address": "Vadodara, INDIA",
     "present_address": "Vadodara, INDIA",
-    "contact_number": "9426205166",
+    "contact_number": "(+91) 9426205166",
     "email_id": "priya.khuman@gmail.com",
-    "education": "MBA/PGDM - HR/Industrial Relations - Gujarat Technological University, Ahmedabad (2014)",
-    "total_years_of_experience": "6 Years",
+    "education": [
+        {
+            "degree": "MBA/PGDM - HR/Industrial Relations",
+            "institute": "Gujarat Technological University, Ahmedabad",
+            "year": "2014"
+        }
+    ],
+    "total_years_of_experience": "6 years",
     "experience_details": [
         {
             "company_name": "Shreenathji Skoda",
             "role": "HR and Sales training manager",
             "duration": "Jun 2022 - Dec 2024",
-            "responsibilities": "Managed HR and Sales training programs."
+            "responsibilities": "Managed HR and Sales training functions. Oversaw training initiatives for the sales team."
         },
         {
             "company_name": "B.Mangatram Hyundai",
             "role": "Training Manager",
             "duration": "Aug 2018 - Sep 2019",
-            "responsibilities": "Daily imparted sales training to sales consultants."
+            "responsibilities": "Daily imparted sales training to sales consultants. Focused on enhancing sales skills."
         },
         {
             "company_name": "Shivalik Hyundai",
             "role": "Training Manager",
             "duration": "Oct 2017 - Jun 2018",
-            "responsibilities": "Daily imparted training to sales consultants."
+            "responsibilities": "Daily imparted training to sales consultants. Improved consultant performance through structured sessions."
         },
         {
             "company_name": "Shivalik IB Automark Pvt Ltd",
             "role": "Training Manager",
             "duration": "Apr 2014 - Oct 2017",
-            "responsibilities": "Imparted automobile training to all sales team members. Conducted value-added and motivational training. Enhanced productivity of sales personnel not meeting targets."
+            "responsibilities": "Provided automobile, value-added, and motivational training to sales teams. Focused on productivity enhancement for underperforming sales personnel."
         }
     ],
-    "current_monthly_salary": "",
     "district": "Vadodara",
     "state": "Gujarat",
     "gender": "",

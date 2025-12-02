@@ -32,7 +32,6 @@
         }
       }
     },
-    "current_monthly_salary": { "type": "string" },
     "district": { "type": "string" },
     "state": { "type": "string" },
     "gender": { "type": "string" },

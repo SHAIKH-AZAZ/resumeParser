@@ -3,7 +3,7 @@
     "birth_date": "08 oct 2006",
     "marital_status": "Unmarried",
     "permanent_address": "Village: Bithnok, Kolayat, Dist.: Bikaner, Rajasthan-334302",
-    "present_address": "",
+    "present_address": "Village: Bithnok, Kolayat, Dist.: Bikaner, Rajasthan-334302",
     "contact_number": "9352204723",
     "email_id": "kjajra72@gmail.com",
     "education": [
@@ -18,16 +18,15 @@
             "year": "2022"
         }
     ],
-    "total_years_of_experience": "0 years",
+    "total_years_of_experience": "",
     "experience_details": [
         {
             "company_name": "Mitarsh Energy Private Ltd.",
             "role": "technician",
             "duration": "Oct 2024 to till date",
-            "responsibilities": "Rectified DC faults (SCB, String, Ground). Operated & maintained 3.125 MVA inverters. Performed inverter cleaning, string monitoring, and thermography of SCB & Inverter."
+            "responsibilities": "Performed DC fault rectification (SCB, String, Ground). Conducted operation and maintenance of 3.125 MVA inverters. Responsible for supervision, inspection, and thorough cleaning of inverters, including string monitoring and thermography."
         }
     ],
-    "current_monthly_salary": "",
     "district": "Bikaner",
     "state": "Rajasthan",
     "gender": "Male",

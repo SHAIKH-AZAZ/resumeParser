@@ -3,37 +3,31 @@
     "birth_date": "05/11/2005",
     "marital_status": "unmarried",
     "permanent_address": "Village – awaay, Pokaran, Dist. Jaisalmer, Rajasthan",
-    "present_address": "Village – awaay, Pokaran, Dist. Jaisalmer, Rajasthan",
+    "present_address": "",
     "contact_number": "+919166069257",
     "email_id": "jogendrasinghsodha123@gmail.com",
     "education": [
-        {
-            "degree": "Secondary",
-            "institute": "Rajasthan Board, Ajmer",
-            "year": "2021"
-        },
         {
             "degree": "DIPLOMA",
             "institute": "Veer Bahadur Singh Purvanchal University Jaunpur U.P.",
             "year": "2024"
         }
     ],
-    "total_years_of_experience": "1 year 5 months",
+    "total_years_of_experience": "1 year 4 months",
     "experience_details": [
         {
-            "company_name": "Hinduja Renewable Energy Pvt. Ltd. (Shrinath O&M Pvt. Ltd.)",
+            "company_name": "Hinduja Renewable Energy Pvt. Ltd.",
             "role": "Technician",
             "duration": "01 Nov. 2024 To 01 April.2025",
-            "responsibilities": "Monitored strings, performed O&M on solar plant inverters (SMA 800KW, Schneider 2MVA) and SCBs, including rectification. Managed cable laying (DC, AC, LT, HT), lugging, termination, IR testing, and module installation. Recorded energy meter readings, cleaned inverter filters, and ensured safety compliance with PPE."
+            "responsibilities": "Performed string monitoring and rectification work. Conducted operation and maintenance of inverters (800KW SMA, 2MVA SCHNEIDER IDT) and SCBs. Managed DC/AC cable laying, termination, lugging, and LT/HT cable IR testing."
         },
         {
-            "company_name": "Kalar Renewable Energy Pvt. Ltd Bhadla Bap (Phalodi)",
-            "role": "",
+            "company_name": "Kalar Renewable Energy Pvt. Ltd",
+            "role": "Technician",
             "duration": "09 Nov.2023 To 30 Oct.2024",
-            "responsibilities": "Monitored strings, performed O&M on solar plant inverters (SMA 800KW, Schneider 2MVA) and SCBs, including rectification. Managed cable laying (DC, AC, LT, HT), lugging, termination, IR testing, and module installation. Recorded energy meter readings, cleaned inverter filters, and ensured safety compliance with PPE."
+            "responsibilities": "Executed string monitoring, rectification, and O&M of solar plant components. Responsible for energy meter readings, DC/AC cabling, and LT/HT cable work. Ensured safe working environment, proper PPE use, and tool maintenance."
         }
     ],
-    "current_monthly_salary": "",
     "district": "Jaisalmer",
     "state": "Rajasthan",
     "gender": "",

@@ -3,26 +3,19 @@
     "birth_date": "21st March 1996",
     "marital_status": "Unmarried",
     "permanent_address": "170, Main Bazar, Ranasan District – Sabarkantha, Gujarat – 383305",
-    "present_address": "170, Main Bazar, Ranasan District – Sabarkantha, Gujarat – 383305",
+    "present_address": "",
     "contact_number": "+91 7874118399",
     "email_id": "ranaaniket07@gmail.com",
-    "education": [
-        {
-            "degree": "MBA – Human Resources",
-            "institute": "Saurashtra University",
-            "year": "2018"
-        }
-    ],
+    "education": "MBA – Human Resources - Saurashtra University (2018)",
     "total_years_of_experience": "3.5 years",
     "experience_details": [
         {
             "company_name": "Bhurawala Group",
             "role": "HR Manager",
-            "duration": "January 2022 – June 2025 (3.5 years)",
-            "responsibilities": "Managed end-to-end HR operations, including recruitment, payroll, and performance management. Developed policies, drove employee engagement, and ensured legal compliance and strategic HR advisory."
+            "duration": "January 2022 – June 2025",
+            "responsibilities": "Oversaw end-to-end HR operations including recruitment, onboarding, and performance management. Developed and implemented HR policies and procedures, managed payroll, and drove employee engagement initiatives. Advised senior management on strategic HR matters and ensured statutory compliance with labor laws."
         }
     ],
-    "current_monthly_salary": "",
     "district": "Sabarkantha",
     "state": "Gujarat",
     "gender": "",
