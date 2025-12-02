@@ -67,8 +67,8 @@ def main():
     rows = []
 
     for pdf in tqdm(pdf_files, desc="Processing Resumes"):
+        tqdm.write(f"▶ Processing: {os.path.basename(pdf)}")
         file_name = os.path.basename(pdf)
-
         text = extract_text_from_pdf(pdf)
         clean = clean_text(text)
 

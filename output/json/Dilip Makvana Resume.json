@@ -3,17 +3,28 @@
     "birth_date": "",
     "marital_status": "",
     "permanent_address": "At-Makvanavas,Morvad, Ta-Vijapur, Di-Mehsana, Pin- 382870",
-    "present_address": "At-Makvanavas,Morvad, Ta-Vijapur, Di-Mehsana, Pin- 382870",
+    "present_address": "",
     "contact_number": "6351676731",
     "email_id": "dilipmakvana2705@gmail.com",
-    "education": "Master of Business Administration (HR) - Sankalchand Patel University (2025)",
-    "total_years_of_experience": "0",
+    "education": [
+        {
+            "degree": "Master of Bussiness Administation (HR)",
+            "institute": "Sankalcand Patel College of Engeering",
+            "year": "2025"
+        },
+        {
+            "degree": "Bachelor of Commerce",
+            "institute": "S.m.t.S.S.Patel Nootan Science & Commerce College,Visnagar",
+            "year": "2023"
+        }
+    ],
+    "total_years_of_experience": "0 years",
     "experience_details": [
         {
             "company_name": "Carrier Bridge Skill Solutions",
             "role": "Intern",
-            "duration": "May 2024 - June 2024",
-            "responsibilities": "Supported employee record development and maintenance, ensuring data accuracy and confidentiality.\nContributed to onboarding, preparing new hire documentation and assisting with orientation."
+            "duration": "20th May,2024 to 19th June,2024",
+            "responsibilities": "Supported the development and maintenance of employee records and databases.\nContributed to the onboarding process by preparing new hire documentation and assisting with orientation sessions."
         }
     ],
     "district": "Mehsana",

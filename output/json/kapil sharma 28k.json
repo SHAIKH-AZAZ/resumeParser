@@ -11,20 +11,15 @@
             "degree": "Diploma (Electrical Engineer Trade)",
             "institute": "",
             "year": "2024"
-        },
-        {
-            "degree": "10th",
-            "institute": "",
-            "year": "2022"
         }
     ],
-    "total_years_of_experience": "",
+    "total_years_of_experience": "0",
     "experience_details": [
         {
             "company_name": "Mitarsh Energy Private Ltd.",
             "role": "technician",
             "duration": "Oct 2024 to till date",
-            "responsibilities": "Performed DC fault rectification (SCB, String, Ground). Conducted operation and maintenance of 3.125 MVA inverters. Responsible for supervision, inspection, and thorough cleaning of inverters, including string monitoring and thermography."
+            "responsibilities": "Rectified DC Faults (SCB, String, Ground fault). Operated & maintained 3.125 MVA inverters, including thorough cleaning and thermography."
         }
     ],
     "district": "Bikaner",

@@ -2,7 +2,7 @@
     "name_of_candidate": "PRIYA BAHADURBHAI KHUMAN",
     "birth_date": "",
     "marital_status": "",
-    "permanent_address": "Vadodara, INDIA",
+    "permanent_address": "",
     "present_address": "Vadodara, INDIA",
     "contact_number": "(+91) 9426205166",
     "email_id": "priya.khuman@gmail.com",
@@ -13,35 +13,35 @@
             "year": "2014"
         }
     ],
-    "total_years_of_experience": "6 years",
+    "total_years_of_experience": "6 Years 0 Month",
     "experience_details": [
         {
             "company_name": "Shreenathji Skoda",
-            "role": "HR and Sales training manager",
+            "role": "HR and sales training manager",
             "duration": "Jun 2022 - Dec 2024",
-            "responsibilities": "Managed HR and Sales training functions. Oversaw training initiatives for the sales team."
+            "responsibilities": "Managed HR and sales training. Conducted value-added and motivational training."
         },
         {
             "company_name": "B.Mangatram Hyundai",
             "role": "Training Manager",
             "duration": "Aug 2018 - Sep 2019",
-            "responsibilities": "Daily imparted sales training to sales consultants. Focused on enhancing sales skills."
+            "responsibilities": "Provided daily sales training to consultants."
         },
         {
             "company_name": "Shivalik Hyundai",
             "role": "Training Manager",
             "duration": "Oct 2017 - Jun 2018",
-            "responsibilities": "Daily imparted training to sales consultants. Improved consultant performance through structured sessions."
+            "responsibilities": "Delivered daily training to sales consultants."
         },
         {
             "company_name": "Shivalik IB Automark Pvt Ltd",
             "role": "Training Manager",
             "duration": "Apr 2014 - Oct 2017",
-            "responsibilities": "Provided automobile, value-added, and motivational training to sales teams. Focused on productivity enhancement for underperforming sales personnel."
+            "responsibilities": "Imparted automobile training and conducted motivational sessions. Enhanced sales productivity."
         }
     ],
     "district": "Vadodara",
-    "state": "Gujarat",
+    "state": "",
     "gender": "",
     "pan_card": "",
     "aadhar_card": "",

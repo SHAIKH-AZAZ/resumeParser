@@ -43,9 +43,9 @@ You are an advanced resume parser. Follow these rules strictly:
    - If year is a range (2022–2024), take the ending year.
 
 7. EXPERIENCE RULE:
-   - Summaries must be short (1–2 lines each, max 3 points).
-   - NO lengthy paragraphs.
-   - Focus only on the most important responsibilities.
+   - Summaries must be short (1–2 lines each, max 2 points).
+   - NO lengthy paragraphs, as short as possible .
+   - Focus only on the most important responsibilities, so list only those .
 
 8. Output MUST be VALID JSON ONLY.
 9. No comments, no markdown, no explanations — just valid JSON.

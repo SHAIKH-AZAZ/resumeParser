@@ -11,24 +11,9 @@
             "degree": "DIPLOMA IN E.E",
             "institute": "SWAMI VIVEKANANDA SCHOOL OF DIPLOMA",
             "year": "2025"
-        },
-        {
-            "degree": "W.B.C.H.S.E",
-            "institute": "DHAMTORE B.B VIDYABHABAN",
-            "year": ""
-        },
-        {
-            "degree": "SECONDARY",
-            "institute": "DHAMTORE B.B VIDYABHABAN",
-            "year": ""
-        },
-        {
-            "degree": "Diploma in Information technology & Aplication (DITA)",
-            "institute": "",
-            "year": ""
         }
     ],
-    "total_years_of_experience": "",
+    "total_years_of_experience": "0",
     "experience_details": [],
     "district": "PASCHIM MEDINIPUR",
     "state": "WEST BENGAL",
