@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-MODEL_NAME = "gpt-5-nano"  # or gpt-4.1-mini for cheaper
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+MODEL_NAME = "gemini-2.5-flash"  # using this for free teir  ,cheaper
 
 INPUT_FOLDER = "input/resumes"
 OUTPUT_TEXT_FOLDER = "output/text"

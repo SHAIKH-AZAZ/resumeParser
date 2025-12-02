@@ -13,6 +13,21 @@ from services.extractor import extract_resume_data
 def clean_unicode(value):
     return value  # NEVER decode again — this prevents “â€”” errors
 
+# Removing Duplicates from csv file
+def remove_duplicates(csv_path):
+    if not os.path.exists(csv_path):
+        return  # nothing to clean yet
+
+    df = pd.read_csv(csv_path)
+
+    # Remove duplicates by file_name OR email_id
+    df = df.drop_duplicates(
+        subset=["file_name", "email_id"],
+        keep="last"
+    )
+
+    # Save cleaned CSV back
+    df.to_csv(csv_path, index=False, encoding="utf-8")
 
 def flatten_json_for_csv(data):
 
@@ -67,7 +82,17 @@ def main():
 
     # Save final CSV (UTF-8 SAFE)
     df = pd.DataFrame(rows)
-    df.to_csv(f"{OUTPUT_CSV_FOLDER}/final_output.csv", index=False, encoding="utf-8")
+    csv_path = f"{OUTPUT_CSV_FOLDER}/final_output.csv"
+    # Append mode
+    df.to_csv(
+        csv_path,
+        mode='a',  # <-- append
+        index=False,
+        encoding='utf-8',
+        header=not os.path.exists(csv_path)  # <-- write header only first time
+    )
+    remove_duplicates(csv_path)
+    # df.to_csv(f"{OUTPUT_CSV_FOLDER}/final_output.csv", index=False, encoding="utf-8")
 
     print("\n✔ DONE! Resume extraction completed successfully.")
 
