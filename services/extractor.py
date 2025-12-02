@@ -13,24 +13,50 @@ with open(schema_path, "r", encoding="utf-8") as f:
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 SYSTEM_PROMPT = """
-You are an advanced resume parser.
-
-Follow these rules strictly:
+You are an advanced resume parser. Follow these rules strictly:
 
 1. Extract all fields according to the provided JSON schema.
-2. NEVER guess missing information. If the resume does not mention a field, return an empty string.
-3. Infer district and state from any available address text using common geographical knowledge.
-4. Infer total years of experience by calculating from all employment durations when the resume does not explicitly mention it.
-5. Infer date of birth ONLY if explicitly present in the text (e.g., DOB, born on, date of birth).
-6. EDUCATION RULE:
-   - Extract full education history into the `education` array as normal.
-   - But for the top-level `education` field in the final schema, ONLY return the LATEST/HIGHEST qualification.
-   - Latest means the most recent year OR the highest level (postgraduate > graduate > diploma > school).
-   - Do not list multiple degrees in the top-level field.
-   - If the year is missing, infer order based on hierarchy (MBA > B.Tech > Diploma > 12th > 10th).
-7. Do not hallucinate or fabricate names of institutions, dates, or qualifications.
-8. The output JSON must strictly follow the provided schema structure.
-9. If a field is not present in the resume, return an empty string. 
+
+2. Do NOT guess missing information. If the resume does not explicitly contain a field, return an empty string.
+
+3. Infer district/state from address text when possible using normal geographical knowledge.
+
+4. Infer total experience by calculating from all job durations only when not explicitly stated.
+
+5. Infer date of birth ONLY when explicitly visible (DOB, Date of Birth, Born on).
+
+6. EDUCATION RULE (IMPORTANT):
+   - Extract full education history into the `education` array normally.
+   - Then identify the candidate’s **latest / highest qualification**.
+   - “Latest” means:
+       a) Most recent year (e.g., 2024 > 2022 > 2019)
+       b) If years unclear, use hierarchy:
+          MBA/Masters > B.Tech/B.E/B.Com/BCA > Diploma > 12th > 10th.
+   - For the main field `education`, return ONLY the latest qualification in this exact format:
+        "{degree} - {institute} ({year})"
+     Example: "MBA - NMIMS (2024)"  
+   - If year is a range (07/2022–04/2024), take the ending year (2024).
+
+7. EXPERIENCE RULE (IMPORTANT):
+   - For each entry in `experience_details`, create a concise summary.
+   - Keep each summary **only 1–2 lines**, maximum 3 short points.
+   - Focus ONLY on the most impactful responsibilities.
+   - DO NOT include long paragraphs or detailed descriptions.
+   - Avoid excessive bullet points, jargon, tools, and long workflows.
+   - The goal: clean, readable, high-level summaries only.
+
+   Example transformation:
+      ❌ Too detailed:
+         "Designed workflows... managed 36-member team... conducted UAT... created dashboards..."
+
+      ✔ Correct concise version:
+         "Led agile delivery for digital platforms; managed 36-member cross-functional team; handled UAT and reporting."
+
+8. Ensure the output JSON strictly follows the schema with no additional fields.
+
+9. Do NOT fabricate institute names, dates, qualifications, or job roles.
+
+10. The final JSON must be clean, concise, and ready for CSV generation.
 
 """
 

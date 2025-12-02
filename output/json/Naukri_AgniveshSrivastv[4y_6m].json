@@ -8,14 +8,14 @@
     "email_id": "agniveshsrivastav738@gmail.com",
     "education": [
         {
-            "degree": "MBA in Operations and Finance",
+            "degree": "MBA",
             "institute": "NMIMS, Mumbai",
-            "year": "2022 \u2013 2024"
+            "year": "2024"
         },
         {
-            "degree": "B.Com in Commerce and Economics",
+            "degree": "B.Com",
             "institute": "Siddhartha University",
-            "year": "2018 \u2013 2020"
+            "year": "2020"
         }
     ],
     "total_years_of_experience": "4.5 years",
@@ -23,34 +23,34 @@
         {
             "company_name": "Expedien eSolutions Pvt Ltd",
             "role": "Consultant",
-            "duration": "Apr 2023 \u2013 Present",
-            "responsibilities": "Defined Business Architecture; Conducted BRD/FRS; Developed process flows, use case diagrams, and data models; Bridged between business users and technical teams; Created wireframes, UI prototypes, and workflow diagrams; Worked in Agile/Scrum; Applied ITIL Practices; Conducted manual testing; Coordinated and conducted UAT; Generated MIS reports and dashboards; Led stakeholder management; Ensured cross-functional coordination; Delivered case studies and best practice recommendations for ERP alignment and compliance."
+            "duration": "Apr 2023 – Present",
+            "responsibilities": "Defined business architecture; translated requirements into system functionalities; led UAT and MIS reporting; coordinated with stakeholders."
         },
         {
             "company_name": "Quality Council of India",
             "role": "Analyst",
-            "duration": "Jan 2023 \u2013 Apr 2023",
-            "responsibilities": "Built periodic MIS reports and dashboards for Coal India and State Gencos; Automated Power BI data refresh using Excel; Created financial and operational visualizations using DAX; Contributed to interim reporting for Ministry of Railways."
+            "duration": "Jan 2023 – Apr 2023",
+            "responsibilities": "Built periodic MIS reports and dashboards; automated Power BI refresh; supported interim reporting for Ministry of Railways."
         },
         {
             "company_name": "Quality Council of India",
             "role": "Coordinator",
-            "duration": "Jan 2022 \u2013 Dec 2022",
-            "responsibilities": "Handled invoicing for 250+ coal sector clients; Drafted BRDs in consultation with key stakeholders; Generated actionable insights through Power BI and Excel dashboards."
+            "duration": "Jan 2022 – Dec 2022",
+            "responsibilities": "Handled invoicing for 250+ coal sector clients; drafted BRDs; generated insights via Power BI and Excel dashboards."
         },
         {
             "company_name": "Quality Council of India",
             "role": "Management Trainee",
-            "duration": "Jan 2021 \u2013 Dec 2021",
-            "responsibilities": "Coordinated 600 assessors across 200+ team projects pan-India; Led analytics for 4321 Urban Local Bodies on sanitation performance; Ensured 100% accuracy in data collection using pivot-based analytics."
+            "duration": "Jan 2021 – Dec 2021",
+            "responsibilities": "Coordinated 600 assessors across 200+ projects pan-India; led analytics for 4321 Urban Local Bodies on sanitation; ensured 100% data accuracy using pivot-based analytics."
         }
     ],
     "current_monthly_salary": "",
-    "district": "Delhi",
+    "district": "Delhi NCR",
     "state": "Delhi",
     "gender": "",
     "pan_card": "",
     "aadhar_card": "",
     "preferred_job_location": "Delhi NCR",
-    "file_name": "Naukri_AgniveshSrivastav[4y_6m].pdf"
+    "file_name": "Naukri_AgniveshSrivastv[4y_6m].pdf"
 }
