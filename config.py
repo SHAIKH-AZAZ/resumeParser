@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_NAME = "gemini-2.5-flash"  # using this for free teir  ,cheaper
+MODEL_NAME = "gemini-2.5-flash-lite"  # using this for free teir  ,cheaper
 
 INPUT_FOLDER = "input/resumes"
 OUTPUT_TEXT_FOLDER = "output/text"
